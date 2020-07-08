@@ -2,7 +2,7 @@ const {checker} = require( './modules/checker')
 
 const mailer = require('./modules/mailer')
 
-const urls = ['https://digitalho.com', 'https://digitalho.app', 'http://blog.digitalho.com', 'https://models.digitalho.com', 'http://127.0.0.1:5500']
+const urls = ['https://digitalho.com', 'https://digitalho.app', 'http://blog.digitalho.com', 'https://models.digitalho.com']
 
 const checkResult = {
     statusAfter: {
@@ -10,8 +10,6 @@ const checkResult = {
     statusBefore: {
     },
     date: {   
-    },
-    message: {
     }
 }
 
