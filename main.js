@@ -1,4 +1,4 @@
-const {checker} = require( './modules/checker')
+const checker = require( './modules/checker')
 
 const mailer = require('./modules/mailer')
 
