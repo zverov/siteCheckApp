@@ -4,7 +4,7 @@ module.exports = async function checker(url) {
     try {
         await axios.get(url)
         return true
-    } catch (error) {
+    }catch (error) {
         return false
     }
 }
