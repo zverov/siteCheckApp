@@ -15,7 +15,7 @@ const checkResult = {
 
 async function main() {
 
-    console.log('test run...')
+    console.log('test run...' + Date())
 
     for (let url of urls) {
         checkResult.statusAfter[url] = await checker(url)
