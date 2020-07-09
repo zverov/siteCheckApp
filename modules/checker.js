@@ -1,6 +1,6 @@
 const axios = require('axios')
 
-module.exports.checker = async function(url) {
+module.exports = async function checker(url) {
     try {
         await axios.get(url)
         return true
